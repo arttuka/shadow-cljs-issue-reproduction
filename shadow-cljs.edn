@@ -1,0 +1,14 @@
+{:source-paths ["src"]
+ :dependencies [[reagent "1.1.0"]]
+ :builds       {:simple {:target           :browser
+                         :output-dir       "resources/simple/js"
+                         :asset-path       "/js"
+                         :modules          {:app {:init-fn example.simple/main}}
+                         :devtools         {:http-root "resources/simple"
+                                            :http-port 9500}}
+                :mui    {:target           :browser
+                         :output-dir       "resources/mui/js"
+                         :asset-path       "/js"
+                         :modules          {:app {:init-fn example.mui/main}}
+                         :devtools         {:http-root "resources/mui"
+                                            :http-port 9501}}}}

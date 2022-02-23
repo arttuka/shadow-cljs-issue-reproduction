@@ -1,0 +1,4 @@
+{
+  "main": "../node/foo/index.js",
+  "module": "./index.js"
+}

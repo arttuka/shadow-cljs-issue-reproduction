@@ -1,0 +1,6 @@
+{
+  "main": "./node/index.js",
+  "module": "./index.js",
+  "name": "shadow-cljs-lib-b",
+  "version": "0.0.1"
+}

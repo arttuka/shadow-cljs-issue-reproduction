@@ -1,0 +1,7 @@
+/resources/mui/js
+/resources/simple/js
+node_modules
+.clj-kondo
+.lsp
+.shadow-cljs
+/*/**/package-lock.json
